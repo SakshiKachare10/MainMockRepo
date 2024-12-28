@@ -1,0 +1,1 @@
+export const baseUrl = "https://absorbing-supreme-viscountess.glitch.me";

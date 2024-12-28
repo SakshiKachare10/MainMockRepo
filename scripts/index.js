@@ -8,7 +8,7 @@ form.addEventListener("submit" , function(){
 
     if(email=="admin@empher.com" && password=="empher@123"){
       alert("Logged in as Admin.")
-      window.location.href="admin.html"
+      window.location.href="admin.html";
     }else {
         alert("Something went wrong.Try Again Later.")
     }
@@ -16,7 +16,7 @@ form.addEventListener("submit" , function(){
     
     if(email=="user@empher.com" && password=="user@123"){
         alert("Logged in as Admin.")
-        window.location.href="books.html"
+        window.location.href="books.html";
       }else {
           alert("Something went wrong.Try Again Later.")
       }

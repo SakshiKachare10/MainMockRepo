@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <nav id="nav">
-        <a href="index.html">Home</a>
-        <a href="admin.html">Admin</a>
-        <a href="books.html">Books</a>
    </nav>
+   <form id="books">
+    <h2>Add new books here.</h2>
+    <input type="title" placeholder="Add title">
+    <input type="author" placeholder="Add author">
+    <input type="category" placeholder="Add category">
+    <select id="type">
+        <option value="select">Select Option</option>
+        <option value="fiction">fiction</option>
+        <option value="comedy">comedy</option>
+        <option value="technical">technical</option>
+    </select>
+    <button>Add Book</button>
+   </form>
 </body>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/admin.js"></script>
 </html>
